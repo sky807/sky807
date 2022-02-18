@@ -2,8 +2,11 @@
 
 <div align=center>
   
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=SONG%20HA%20NULE&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Technology&descAlignY=51&descAlign=82)
+# SONG HA NULE 
 </div>
+
+ #### Backend Developer
+  
 <div align=right>
 
   [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://github.com/sky807/)](https://github.com/sky807/) 
