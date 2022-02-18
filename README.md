@@ -12,11 +12,11 @@
 Spring boot 환경에서 이니시스, impay 같은 PG사의 웹표준 결제모듈을 연동시켰습니다.<br/>
 현재는 교육프로그램 위주로 프로젝트를 맡아서 진행하고 있습니다.
 
-- Java Spring Framework 기반 웹 서비스 개발 기술보유
-- MySQL, Oracle DB 를 사용한 RDBMS 기반 개발경험 
-- RESTful API 개발경험
-- HTML5, css, Thymeleaf, Javascript, jquery 등 프론트에 대한 이해도와 개발경험
-- 정보처리기사 자격증보유
+>- Java Spring Framework 기반 웹 서비스 개발 기술보유
+>- MySQL, Oracle DB 를 사용한 RDBMS 기반 개발경험 
+>- RESTful API 개발경험
+>- HTML5, css, Thymeleaf, Javascript, jquery 등 프론트에 대한 이해도와 개발경험
+>- 정보처리기사 자격증보유
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/jquery-0769AD?style=flat-square&logo=jquery&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Data JPA-0094F5?style=flat-square&logo=Spring Data JPA&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/> <img src="https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/>
