@@ -15,6 +15,7 @@ Spring boot 환경에서 이니시스, impay 같은 PG사의 웹표준 결제모
 >- Java Spring Framework 기반 웹 서비스 개발 기술보유
 >- MySQL, Oracle DB 를 사용한 RDBMS 기반 개발경험 
 >- RESTful API 개발경험
+>- JPA를 활용하고 QueryDSL을통해 동적인 쿼리를 구현하고 사용한 개발경험 
 >- HTML5, css, Thymeleaf, Javascript, jquery 등 프론트에 대한 이해도와 개발경험
 >- 정보처리기사 자격증보유
 
