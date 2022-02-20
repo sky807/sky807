@@ -1,4 +1,4 @@
-<div center>
+
 # 개발자의 숙명 Naming 의 중요성 
 
 
