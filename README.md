@@ -25,9 +25,7 @@ Spring boot 환경에서 이니시스, impay 같은 PG사의 웹표준 결제모
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>  <img src="https://img.shields.io/badge/CSS-E4637C?style=flat-square&logo=CSS Wizardry&logoColor=white"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=white"/> <img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=Thymeleaf&logoColor=white"/> 
 
 
-<!--   <div align=center>
-  ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
-</div> -->
+
 
 
 
