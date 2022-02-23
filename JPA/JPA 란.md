@@ -64,10 +64,8 @@ JPA를 사용하면 객체를 조회하고 객체의 데이터를 변경만 해�
 ```
 public interface MemberRepository extends JpaRepository<Member,Long> {
 	List<Member> findById(Long id);
+	
+	//실제로 실행된 SQL
+	SELECT * FROM MEMBER WHERE ID = (id)
 }
-```
-
-```
-//실제로 실행된 SQL
-SELECT * FROM MEMBER WHERE ID = (id)
 ```
