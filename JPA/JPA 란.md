@@ -217,14 +217,3 @@ public interface MemberRepository extends JpaRepository<Member,Long> {
 	SELECT * FROM MEMBER WHERE ID = (id)
 }
 ```
-<<<<<<< HEAD
-
-```
-//실제로 실행된 SQL
-SELECT * FROM MEMBER WHERE ID = (id)
-```
-
-
-
-=======
->>>>>>> 6647f1d011c1008873ec8912f84142af1c67a9fe
