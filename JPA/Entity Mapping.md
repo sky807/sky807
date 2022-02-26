@@ -80,12 +80,12 @@ JPA는 데이터베이스 스키마를 애플리케이션 실행 시점에 자�
 | none        | 자동 생성기능 사용                                           |
 
 >주의
-- 운영 장비에는 create, create-drop, update 사용 금지 → 운영 중인 DB의 테이블이나 컬럼을 삭제 할 수 있기 때문!
-- 개발 초기 단계(로컬 개발 서버) →   create or update 用
-- 테스트 서버에 (여러 명이 같이 사용하는 개발 서버) →  update or validate 用
-  - but 테스트 서버에도 validate이나 none을 쓰는 것이 좋음 → data가 많은 상태에서 alter을 했을 때 시스템이 중단될 수도 있기 때문!
-  - ∴ 직접 스크립트를 짜서 적용해 보고 문제가 없으면 DBA에게 검수 받은 후, 운영 서버에 적용하기
-- 스테이징 & 운영 서버 → validate or none 用
+>- 운영 장비에는 create, create-drop, update 사용 금지 → 운영 중인 DB의 테이블이나 컬럼을 삭제 할 >수 있기 때문!
+>- 개발 초기 단계(로컬 개발 서버) →   create or update 用
+>- 테스트 서버에 (여러 명이 같이 사용하는 개발 서버) →  update or validate 用
+>  - but 테스트 서버에도 validate이나 none을 쓰는 것이 좋음 → data가 많은 상태에서 alter을 했을 >때 시스템이 중단될 수도 있기 때문!
+>  - 직접 스크립트를 짜서 적용해 보고 문제가 없으면 DBA에게 검수 받은 후, 운영 서버에 적용하기
+>- 스테이징 & 운영 서버 → validate or none 用
 
 #### DDL 생성기능
 - 제약 조건 추가
@@ -94,21 +94,20 @@ JPA는 데이터베이스 스키마를 애플리케이션 실행 시점에 자�
 private String userID;
 ~~~
 - 유니크 제약조건 추가
-  ~~~
+~~~
   @Table(uniqueConstraints={@UniqueConstraint(name = "NAME_AGE_UNIQUE", columnNames={"NAME", "AGE"})})
-  ~~~
- ~~~
- 
+~~~
+
 >DDL 생성기능은 DDL을 자동 생성할 때만 사용되고 JPA의 실행 로직에는 영향을 주지 않습니다. 
-  >>DB에만 영향을 주는 것이지 애플리케이션에 영향을 주는 것이 아닙니다. 
-JPA의 실행 매커니즘에 영향을 주는 것이 아니라 alter table과 같은 스크립트가 실행되는 것을 말합니다. 
+>DB에만 영향을 주는 것이지 애플리케이션에 영향을 주는 것이 아닙니다. 
+>JPA의 실행 매커니즘에 영향을 주는 것이 아니라 alter table과 같은 스크립트가 실행되는 것을 말합니다. 
 
  
 ### 필드와 컬럼 매핑
 ---
 #### @Column
 컬럼 매핑시 사용하는 어노테이션입니다
- ~~~
+~~~
 @Column(속성 = 속성 정보)
 ~~~
 
