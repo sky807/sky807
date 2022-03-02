@@ -1,4 +1,4 @@
-Poi 라이브러리를 이용한 Excel download
+# Poi 라이브러리를 이용한 Excel download
 
 
 
@@ -8,8 +8,8 @@ Poi 라이브러리를 이용한 Excel download
 
 
 
-1. 내가 원하는 데이터를 Excel파일로 다운로드 하는방법
-2. Excel파일을 읽어서 데이터를 뽑는 방법 
+- 내가 원하는 데이터를 Excel파일로 다운로드 하는방법
+- Excel파일을 읽어서 데이터를 뽑는 방법 
 
 
 
