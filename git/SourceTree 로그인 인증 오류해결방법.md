@@ -11,27 +11,27 @@ SurceTree에서 Github연동이 안되고 인증 오류가 나서
 
 #### 1.토큰 생성하기
 
-![4](C:\Users\thdgk\OneDrive\바탕 화면\4.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156789591-e7beacff-b2d7-42f4-bfda-a3f8a2608946.png)
 
 Github에서 우측 상단에 있는 프로필을 클릭한 후 아래에 있는 Settings 메뉴에 들어갑니다. 
 그리고 하단에 있는 Developer settings를 눌러줍니다. 
 
-![5](C:\Users\thdgk\OneDrive\바탕 화면\5.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156789775-ac8662bf-3675-4228-9da6-053f54044ed2.png)
 
 그 다음 Personal access tokens를 눌러 들어가줍니다. 
 
-![6](C:\Users\thdgk\OneDrive\바탕 화면\6.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790263-ea5ac87e-c1c2-4532-aff4-b66a6eded53b.png)
 
 Gnenrate new token 을 눌러줍니다. 
 
-![7](C:\Users\thdgk\OneDrive\바탕 화면\7.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790223-8f195e7a-e76f-40cf-96d7-09b415b904bb.png)
 
 그 다음 Note에는 편하게 적고 (영어권장)
 날짜는 마음대로 선택해주세요 
 그러고 repo를 클릭해줍니다 (전체선택해주세요)
 그다음! 여기서 
 
-![8](C:\Users\thdgk\OneDrive\바탕 화면\8.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790198-68faee98-169a-41ba-b186-dd8c257c8045.png)
 
 꼭 user도 선택해주세요 이거를 선택안하니깐 소스트리에서 사용자 이름을 넣을때 자꾸 오류가났습니다. 
 이렇게 모두 완료하셨다면 하단의 Generate token을 클릭해줍니다. 
@@ -44,8 +44,7 @@ Gnenrate new token 을 눌러줍니다.
 #### 2. SourceTree 계정만들기
 
 
-
-![9](C:\Users\thdgk\OneDrive\바탕 화면\9.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790171-abf8a0ef-3785-4179-bb0f-8e93e75c72d2.png)
 
 이제 소스트리에서 계정을 생성하고 사용자명에는 제가 사용하는 별명을 넣어주고 비밀번호에 아까 복사한 토큰을 넣어주면됩니다! 
 
@@ -59,7 +58,7 @@ Gnenrate new token 을 눌러줍니다.
 
 SSH Key 생성 또는 불러오기를 선택합니다.
 
-![0](C:\Users\thdgk\OneDrive\바탕 화면\0.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790101-96a506d9-de8e-4051-bedc-c1426b8a8a3d.png)
 
 Genetate를 눌러 키를 생성해줍니다. 
 여기서 저는 가만히 있었는데 마우스를 움직여 주셔야합니다 ㅎㅎㅎ..
@@ -69,15 +68,15 @@ Key passphrase는 키의 비밀번호로 필수는 아닙니다.
 
 다시 github로 와서
 
-![1](C:\Users\thdgk\OneDrive\바탕 화면\1.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790450-a8bf5a16-6eef-4c81-ac2b-f9236650524e.png)
 
 SSH and GPS key 메뉴로 들어갑니다.
 
-![2](C:\Users\thdgk\OneDrive\바탕 화면\2.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790405-87658a61-03cf-4839-acab-c61fd05f6c07.png)
 
 New SSH key를 선택해주고 
 
-![3](C:\Users\thdgk\OneDrive\바탕 화면\3.PNG)
+![image](https://user-images.githubusercontent.com/59598452/156790372-a3d665b8-8aec-44ba-aac5-a696d261b2d9.png)
 
 Key란에 복사한 Key를 붙여줍니다. title은 편하게 적어줍니다. 
 완료했으면 Add SSH key를 클릭하여 등록해줍니다.
