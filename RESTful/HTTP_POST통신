@@ -1,0 +1,51 @@
+```
+public static ResponseEntity postHttp {
+  String line = null;
+  BufferedReader reader = null;
+  HttpURLConnection conn = null;
+  StringBuffer response = new StringBuffer();
+  
+  try {
+    URL url = new URL(urlString);
+    conn = (HttpURLConnection) url.openConnection();
+    
+    //통신시 필요한 설정들 
+    conn.setRequestMethod("POST");
+    conn.setREquestProperty("Content-Type", "application/json; utf-8");
+    conn.setREquestProperty("parameter", "application/json");
+    
+    conn.setConnectTimeout(15000); //15초설정 
+    conn.setReadTimeout(15000);
+    
+    conn.setDoOutput(true);
+    BufferedWriter bw = new BufferedWriter(new OutpitStreamWriter(conn.getOutputStream()));
+    bw.write(jsonString);
+    bw.flush();
+    bw.close();
+    
+    int resposneCode = conn.getResponseCode();
+    String headerType = conn.getContentType();
+    
+    if (responseCode == HttpsURLConnection.HTTP_OK) {
+      if (headerType.toUpperCase().indexOf("UTF-8") != -1) {
+        //UTF-8로 들어올때 
+        reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
+      } else {
+        reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "EUC-KR"));
+      }
+    }
+    
+    while ((line = reader.readLine()) != null) {
+      reponse.append(line);
+    }
+    reader.close();
+    conn.disconnect();
+   
+  } catch (Exception e) {
+    return new ResponseEntity (ApiCode.HTTPS_ERROR.getHttpStatus());
+  }
+  
+  String jsonStr = response.toString();
+  return new ResponseEntity (jsonStr, HttpStatus.OK);
+}
+```
