@@ -10,13 +10,15 @@
 
 처음 맡게된 프로젝트에서는 간편결제 시스템을 구축하면서 카드 결제 비밀번호 관련 API를 만들었으며, <br/>
 Spring boot 환경에서 이니시스, impay 같은 PG사의 웹표준 결제모듈을 연동시켰습니다.<br/>
-현재는 교육프로그램 위주로 프로젝트를 맡아서 진행하고 있습니다.
+현재는 회사 웹사이트를 전반적으로 관리하며 업체들과의 HTTPS 통신을 통해 API를 구현하여 배포하고있습니다. 
 
 >- Java Spring Framework 기반 웹 서비스 개발 기술보유
 >- MySQL, Oracle, MSSQL DB 를 사용한 RDBMS 기반 개발경험 
 >- RESTful API 개발경험
 >- JPA를 활용하고 QueryDSL을통해 동적인 쿼리를 구현하고 사용한 개발경험 
 >- HTML5, css, Thymeleaf, Javascript, jquery 등 프론트에 대한 이해도와 개발경험
+>- 젠킨스를 통한 CI,CD 자동화 배포 경험
+>- Sentry 를 사용하여 오류로그 실시간 check 및 관리 경험
 >- 정보처리기사 자격증보유
 
 ## Tech Stack
